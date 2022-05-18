@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
+footer {
+  display: grid;
+  justify-content: center; }
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(3, 33.4%); }
+  .social a {
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s; }
+
+a:hover {
+  transform: translateY(-10px); }
+
+.grid-container-conocenos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+  grid-template-areas: "tq1 iq1" "iq2 tq2";
+  text-align: center;
+  align-items: center; }
+  .grid-container-conocenos .item1 {
+    grid-area: iq1; }
+  .grid-container-conocenos .item2 {
+    grid-area: iq2; }
+  .grid-container-conocenos .item3 {
+    grid-area: tq1; }
+  .grid-container-conocenos .item4 {
+    grid-area: tq2; }
+  .grid-container-conocenos .imagen_conocenos {
+    object-fit: cover;
+    border-radius: 10px; }
+  .grid-container-conocenos .tq1 {
+    border-radius: 20px;
+    font-family: 'Square Peg', cursive;
+    font-size: 40px;
+    align-self: center;
+    padding: 20px; }
+  .grid-container-conocenos .tq2 {
+    border-radius: 20px;
+    font-family: 'Square Peg', cursive;
+    font-size: 40px;
+    align-self: center;
+    padding: 20px; }
+
+form {
+  border: solid 3px #ba8d52;
+  max-width: 400px;
+  margin: 50px auto;
+  position: relative;
+  background-color: #ba8d52;
+  padding: 20px; }
+  form input {
+    line-height: normal; }
+  form input[type="text"],
+  form [type="email"],
+  form textarea {
+    font-family: "Montserrat", Arial, sans-serif;
+    background: none;
+    border: none;
+    border-bottom: solid 2px white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px 0px 30px 0px;
+    padding: 0px 0px 15px 0px;
+    width: 100%; }
+  form .boton_formulario {
+    background: bisque;
+    border: solid 2px bisque;
+    color: #474544;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    transition: 0.4s; }
+
+.boton_formulario:hover {
+  background: #834d07;
+  color: #f2f3eb;
+  transform: translateY(-10px); }
+
+.grid-container-tienda {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.item_tienda {
+  position: relative; }
+
+.titulos_tienda {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: #9e6730;
+  width: 100%;
+  margin: 0;
+  text-align: center; }
+
+.imagen_tienda {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.grid-container-taller {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.item_taller {
+  position: relative; }
+
+.titulos_taller {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: #9e6730;
+  width: 100%;
+  margin: 0;
+  text-align: center; }
+
+.imagen_taller {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold; }
+
+main {
+  background-size: cover;
+  background-color: antiquewhite; }
+
+/* Agrego texto en medio de la imagen con negrita y sobreado */
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  font-family: 'Josefin Sans', sans-serif; }
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  background-color: #765132;
+  color: white;
+  padding: 20px; }
+
+.container {
+  width: auto;
+  display: grid; }
+  .container .logo_container {
+    margin-top: 20px;
+    text-align: center; }
+    .container .logo_container .logo_image {
+      width: 80%;
+      text-align: center; }
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px; }
+  nav ul {
+    display: flex; }
+  nav li {
+    list-style: none;
+    margin-top: 10px;
+    justify-content: space-evenly; }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ba8d52;
+    border-radius: 360px;
+    padding: 10px;
+    background-color: #ba8d52;
+    font-family: "Montserrat", Arial, sans-serif; }
+
+@media screen and (max-width: 768px) {
+  .grid-container-tienda {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    padding: 20px;
+    grid-gap: 10px; }
+  .titulos_tienda {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: #9e6730;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    text-align: center; }
+  .grid-container-taller {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    padding: 20px;
+    grid-gap: 10px; }
+  .titulos_taller {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: #9e6730;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    text-align: center; }
+  .logo_image {
+    padding: 10px; } }
+
+@media screen and (max-width: 1100px) {
+  .grid-container-conocenos {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 5px;
+    grid-template-areas: "tq1"  "iq1" "tq2" "iq2";
+    text-align: center;
+    align-items: center; }
+  .tq1 {
+    font-family: 'Square Peg', cursive;
+    font-size: 10px;
+    align-self: center;
+    padding: 20px; }
+  .tq2 {
+    font-family: 'Square Peg', cursive;
+    font-size: 10px;
+    align-self: center;
+    padding: 20px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: antiquewhite;
+  background-size: cover; }

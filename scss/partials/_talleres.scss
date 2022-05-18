@@ -1,0 +1,33 @@
+.grid-container-taller {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    padding: 20px;
+    grid-gap: 10px; }
+  
+.item_taller {
+    position: relative; }
+  
+.titulos_taller {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: #9e6730;
+    width: 100%;
+    margin: 0;
+    text-align: center; }
+  
+.imagen_taller {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  
+div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  
+p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold; }

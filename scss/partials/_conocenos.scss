@@ -1,0 +1,44 @@
+.grid-container-conocenos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 5px;
+    grid-template-areas: "tq1 iq1"
+    "iq2 tq2";
+    text-align: center;
+    align-items: center; 
+
+        .item1 {
+            grid-area: iq1; }
+        
+        .item2 {
+            grid-area: iq2; }
+        
+        .item3 {
+            grid-area: tq1; }
+        
+        .item4 {
+            grid-area: tq2; }
+
+        .imagen_conocenos {
+            object-fit: cover;
+            border-radius: 10px; 
+        }
+
+        .tq1 {
+            border-radius: 20px;
+            font-family: 'Square Peg', cursive;
+            font-size: 40px;
+            align-self: center;
+            padding: 20px;
+        }
+                
+        .tq2 {
+            border-radius: 20px;
+            font-family: 'Square Peg', cursive;
+            font-size: 40px;
+            align-self: center;
+            padding: 20px; 
+        }
+}
+  
