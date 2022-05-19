@@ -7,7 +7,7 @@ $back_color: antiquewhite;
     display: grid;
 
     .logo_container{
-        margin-top: 20px;
+        margin-top: $size;
         text-align: center;
         
             .logo_image{
@@ -18,11 +18,11 @@ $back_color: antiquewhite;
 }
 
 nav{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: $size;
+    margin-bottom: $size;
     text-decoration: none;
     list-style: none;
-    padding: 20px;
+    padding: $size;
 
     ul {
         display: flex;

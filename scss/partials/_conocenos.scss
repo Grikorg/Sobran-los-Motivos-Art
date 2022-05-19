@@ -26,19 +26,19 @@
         }
 
         .tq1 {
-            border-radius: 20px;
+            border-radius: $size;
             font-family: 'Square Peg', cursive;
             font-size: 40px;
             align-self: center;
-            padding: 20px;
+            padding: $size;
         }
                 
         .tq2 {
-            border-radius: 20px;
+            border-radius: $size;
             font-family: 'Square Peg', cursive;
             font-size: 40px;
             align-self: center;
-            padding: 20px; 
+            padding: $size; 
         }
 }
   

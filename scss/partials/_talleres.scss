@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 1fr;
-    padding: 20px;
+    padding: $size;
     grid-gap: 10px; }
   
 .item_taller {
@@ -12,7 +12,7 @@
     position: absolute;
     bottom: 0;
     color: white;
-    background: #9e6730;
+    background: $h1_background:;
     width: 100%;
     margin: 0;
     text-align: center; }
