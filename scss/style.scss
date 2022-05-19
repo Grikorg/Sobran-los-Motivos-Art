@@ -7,7 +7,12 @@
 @import "partials/h1";
 @import "partials/header";
 @import "partials/mediaquerys";
-@import "variables/variables"
+@import "variables/variables";
+@import "sass2/condicionales";
+@import "sass2/extend";
+@import "sass2/maps";
+@import "sass2/mixins";
+@import "sass2/operaciones";
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
