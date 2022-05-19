@@ -1,6 +1,8 @@
 @import "../variables/variables";
 
-// $redes:(
-//     color: 
-//     centro: $
-// )
+$redes:(
+    alto: $alto_redes,
+    ancho: $ancho_redes,
+    borde: $bordes,
+    espacio: $espacios,
+)

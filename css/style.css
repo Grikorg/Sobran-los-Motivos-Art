@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
-
 footer {
   display: grid;
   justify-content: center; }
@@ -27,8 +26,7 @@ a:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 5px;
-  grid-template-areas: "tq1 iq1"
- "iq2 tq2";
+  grid-template-areas: "tq1 iq1" "iq2 tq2";
   text-align: center;
   align-items: center; }
   .grid-container-conocenos .item1 {
@@ -253,10 +251,7 @@ nav {
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: 1fr;
     grid-gap: 5px;
-    grid-template-areas: "tq1" 
- "iq1"
- "tq2"
- "iq2";
+    grid-template-areas: "tq1"  "iq1" "tq2" "iq2";
     text-align: center;
     align-items: center; }
   .tq1 {
