@@ -1,0 +1,10 @@
+@import "../variables/variables";
+
+.h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    background-color: $h1_background;
+    color: $h1_color;
+    padding: $size;
+}

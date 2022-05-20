@@ -1,8 +1,7 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
 h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 300%;
-    text-align: center;
-    background-color: #765132;
-    color: white;
-    padding: $size;
+    @extend .h1;
 }
