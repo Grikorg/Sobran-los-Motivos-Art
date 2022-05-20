@@ -1,0 +1,9 @@
+@import "../variables/variables";
+
+@mixin fuentes-p {
+    font-family: $p_font;
+    border-radius: $size;
+    font-size: $p_font_size;
+    align-self: $h1_text_align;
+    padding: $size; 
+}

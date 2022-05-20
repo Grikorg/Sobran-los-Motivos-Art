@@ -1,4 +1,6 @@
 @import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
 
 .grid-container-conocenos {
     display: grid;
@@ -28,18 +30,10 @@
         }
 
         .tq1 {
-            border-radius: $size;
-            font-family: 'Square Peg', cursive;
-            font-size: 40px;
-            align-self: center;
-            padding: $size;
+            @include fuentes-p;
         }
                 
         .tq2 {
-            border-radius: $size;
-            font-family: 'Square Peg', cursive;
-            font-size: 40px;
-            align-self: center;
-            padding: $size; 
+            @include fuentes-p; 
         }
 }

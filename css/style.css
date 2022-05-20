@@ -20,6 +20,14 @@ footer {
   .social a:hover {
     transform: translateY(-10px); }
 
+.h1, h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  background-color: #765132;
+  color: white;
+  padding: 20px; }
+
 .grid-container-conocenos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -40,14 +48,14 @@ footer {
     object-fit: cover;
     border-radius: 10px; }
   .grid-container-conocenos .tq1 {
+    font-family: "Square Peg", cursive;
     border-radius: 20px;
-    font-family: 'Square Peg', cursive;
     font-size: 40px;
     align-self: center;
     padding: 20px; }
   .grid-container-conocenos .tq2 {
+    font-family: "Square Peg", cursive;
     border-radius: 20px;
-    font-family: 'Square Peg', cursive;
     font-size: 40px;
     align-self: center;
     padding: 20px; }
